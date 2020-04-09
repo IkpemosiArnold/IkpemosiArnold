@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/ikpemosiarnold/image/upload/v1586445313/piggyvest_favicon_qhkfi1.ico">
+    <title>PiggyVest | Dashboard</title>
+
+</head>
+<body>
+
+    <div class="main">
+        <!--Piggyvest logo-->
+        <a class ="header" href="#">
+            <img class="" src="https://res.cloudinary.com/ikpemosiarnold/image/upload/v1586445313/piggyvest-logo_bvzsdh.svg" alt="Piggybank logo">
+        </a>
+
+        <!--Register Form-->
+        <div class="signup">
+            <form method="" action="action_page.php">
+                <div class="welcome">
+                    <h1 id="main-heading">Create a Secure Account</h1>
+                    <p id="sub-heading">Welcome to the future of Savings & Investments</p>
+                </div>
+
+                <div class="form-input">
+                    <label for="fullname">Full Name</label>
+                    <input id="fullname" type="text" name="fullname" placeholder="Full Name" required/>
+
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email" placeholder="Email Address" required/>
+
+                    <label>Phone Number</label>
+                    <input id="number" type="tel" name="number" placeholder="Phone Number" />
+
+                    <label for="passwrd">Password</label>
+                    <input id="passwrd" type="password" name="password" placeholder="Password" required/>
+
+                    <label for="code">Referral Phone or Promo Code (Optional)</label>
+                    <input id="code" type="text" name="referrer" placeholder="Referrer Phone or Code" />
+
+                    <label for="hdyau">How Did You Hear About Us? (Optional)</label>
+                    
+                 
+                    <select class="input" name="hdyau" id="hdyau">
+                        <option value="Select"><span class="dd-seperator">Click To Select</span></option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Friend/Family/Co-worker Referral">Friend/Family/Co-worker Referral</option>
+                        <option value="Google search">Google search</option>
+                        <option value="Playstore">Google playstore</option>
+                        <option value="Blog">Online blog</option>
+                        <option value="News">Local Newspaper</option>
+                        <option value="Event">At an event</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <button type="submit">CREATE ACCOUNT</button>
+            </form>
+        </div>
+    </div>
+    
+    <a id="login" href="#">Already have an account? Log In</a>
+  
+    
+   
+</body>
+</html>
